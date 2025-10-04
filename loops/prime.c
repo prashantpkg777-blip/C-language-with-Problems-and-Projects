@@ -1,26 +1,25 @@
 #include <stdio.h>
 
 int main() {
-    int num, i, isPrime = 1;
+  int n, i, prime;
+  printf("Enter a positive integer: ");
+  scanf("%d", &n);
 
-    printf("Enter a number: ");
-    scanf("%d", &num);
-
-    if (num <= 1) {
-        isPrime = 0;  // 0 aur 1 prime nahi hote
-    } else {
-        for (i = 2; i <= num / 2; i++) {
-            if (num % i == 0) {
-                isPrime = 0;  // divisible mila → prime nahi
-                break;        // loop rok do
-            }
-        }
+  if (n <= 1) {
+    printf("%d is not a prime number.\n", n);
+  } else {
+    prime = 1;
+    for (i = 2; i * i <= n; i++) {
+      if (n % i == 0) {
+        prime = 0;
+        break;
+      }
     }
-
-    if (isPrime)
-        printf("%d is a Prime number\n", num);
-    else
-        printf("%d is NOT a Prime number\n", num);
-
-    return 0;
+  }
+  if (prime) {
+    printf("%d is a prime number.\n", n);
+  } else {
+    printf("%d is not a prime number.\n", n);
+  }
+  return 0;
 }
