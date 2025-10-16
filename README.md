@@ -11,6 +11,7 @@ This repository includes:
 - Basic to advanced **C programs**
 - **Loop**, **array**, **string**, and **function** examples
 - **Pointers**, **structures**, and **file handling** codes
+- **Dynamic Memory Allocation (DMA)** examples
 - Mini projects for better understanding of concepts
 
 ---
@@ -22,6 +23,7 @@ This repository includes:
 - 🧮 Arrays and Strings
 - 🧩 Functions and Recursion
 - 🧠 Pointers
+- 🧾 Dynamic Memory Allocation (malloc, calloc, realloc, free)
 - 📦 Structures and Unions
 - 💾 File Handling
 - 🧪 Small Projects
@@ -32,4 +34,4 @@ This repository includes:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<prashantpkg777-blip>/<c-language>.git
+    https://github.com/prashantpkg777-blip/c-language.git
