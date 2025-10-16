@@ -1,0 +1,2 @@
+Appending a new line.
+The sum of 3 and 7 is 10.
